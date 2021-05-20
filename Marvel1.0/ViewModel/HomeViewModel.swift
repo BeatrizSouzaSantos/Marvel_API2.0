@@ -79,7 +79,7 @@ class HomeViewModel: ObservableObject{
         .resume()
      }
 
-    // Para gerar Hash para usar CryptoKit
+    // Para gerar Hash para usar o CryptoKit
     func MD5(data: String)->String {
         
         let hash = Insecure.MD5.hash(data: data.data(using: .utf8) ?? Data())
