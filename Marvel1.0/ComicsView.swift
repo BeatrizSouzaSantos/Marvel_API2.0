@@ -7,7 +7,7 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
-
+//MARK: - View
 struct ComicsView: View {
     @EnvironmentObject var homeData: HomeViewModel
     var body: some View {
@@ -23,7 +23,7 @@ struct ComicsView: View {
                         }
                         else{
                             
-                            //Displaying Contents
+//MARK: - Displaying Contents
                             
                             VStack(spacing: 15){
                               
@@ -67,7 +67,7 @@ struct ComicsView: View {
                     })
                     .navigationTitle("Marvel's Comics")
             }
-            //Loading Data
+            //MARK: - Loading Data
             .onAppear(perform: {
                 if homeData.fetchedComics.isEmpty{
                     homeData.fetchComics()
@@ -111,7 +111,7 @@ struct ComicRowView: View {
                     .multilineTextAlignment(.leading)
                 }
                 
-                // Links
+                //MARK: - Links
                 HStack(spacing:10){
                     
                     ForEach(character.urls,id: \.self){data in
@@ -132,7 +132,7 @@ struct ComicRowView: View {
     
     func extractImage(data: [String:String])->URL{
         
-        // Combinando e formando as imagens
+        //MARK: - Combinando e formando as imagens
         let path = data["path"] ?? ""
         let ext = data["extension"] ?? ""
         
