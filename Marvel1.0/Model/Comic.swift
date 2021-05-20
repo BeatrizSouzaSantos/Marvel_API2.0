@@ -2,8 +2,10 @@
 //  Comic.swift
 //  Marvel1.0
 //
-//  Created by user195594 on 5/19/21.
+//  Created by beatriz souza santos on 5/19/21.
 //
+
+// Codigo dos herois
 
 import SwiftUI
 

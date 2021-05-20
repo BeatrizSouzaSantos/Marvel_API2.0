@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Marvel1.0
 //
-//  Created by user195594 on 5/19/21.
+//  Created by beatriz de souza santos on 5/19/21.
 //
 
 import UIKit
@@ -13,15 +13,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Ponto de substituição para personalização após o lançamento do aplicativo.
         return true
     }
 
-    // MARK: UISceneSession Lifecycle
+    // MARK: - UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
+        // Chamado quando uma nova sessão de cena está sendo criada.
+        // Use este método para selecionar uma configuração para criar a nova cena.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
