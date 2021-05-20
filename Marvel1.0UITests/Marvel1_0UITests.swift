@@ -33,7 +33,7 @@ class Marvel1_0UITests: XCTestCase {
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
+            // Isso mede quanto tempo leva para iniciar seu aplicativo.
             measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
             }

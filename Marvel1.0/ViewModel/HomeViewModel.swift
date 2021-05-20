@@ -4,6 +4,7 @@ import CryptoKit
 
 class HomeViewModel: ObservableObject{
 
+    //Barra de pesquisa
     @Published var searchQuery = ""
 
     //Combinar barra de pesquisa do framework
