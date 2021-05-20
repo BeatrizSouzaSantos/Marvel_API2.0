@@ -26,9 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
+        // Chamado quando o usuário descarta uma sessão de cena.
+        // Se alguma sessão foi descartada enquanto o aplicativo não estava em execução, isso será executado. application:didFinishLaunchingWithOptions.
+        // Use este método para liberar qualquer recurso que sao específicos para as cenas descartadas, pois eles não retornarão.
     }
 
 

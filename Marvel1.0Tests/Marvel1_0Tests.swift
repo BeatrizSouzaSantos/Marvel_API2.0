@@ -2,31 +2,33 @@
 //  Marvel1_0Tests.swift
 //  Marvel1.0Tests
 //
-//  Created by user195594 on 5/19/21.
+//  Created by beatriz souza santos on 5/19/21.
 //
 
 import XCTest
 @testable import Marvel1_0
 
+//Testes
+
 class Marvel1_0Tests: XCTestCase {
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // Coloque o código de configuração aqui. Este método é chamado antes da invocação de cada método de teste na classe.
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        // Coloque o código de desmontagem aqui. Este método é chamado após a invocação de cada método de teste na classe.
     }
 
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Este é um exemplo de caso de teste funcional.
+        // Use o XCTAssert e funções relacionadas para verificar se seus testes produzem os resultados corretos.
     }
 
     func testPerformanceExample() throws {
-        // This is an example of a performance test case.
+        // Este é um exemplo de caso de teste de desempenho.
         self.measure {
-            // Put the code you want to measure the time of here.
+            // Coloque o código que deseja medir o tempo daqui.
         }
     }
 
